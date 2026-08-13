@@ -10,7 +10,7 @@ from app.exceptions import(
 )
     
 ALLOWED_SERVICES = ["ASESORIA", "SOPORTE", "DESARROLLO"]
-ALLOWED_DURATIONS = ["30", "60", "90"]
+ALLOWED_DURATIONS = [30, 60, 90]
 
 OPENING_TIME = time(9, 0)  # 9:00 AM
 CLOSING_TIME = time(17, 0)  # 5:00 PM
